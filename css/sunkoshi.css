@@ -1,0 +1,212 @@
+
+body
+{
+	box-sizing: border-box;
+}
+#top
+{
+	background: #613942;
+	height: 53px;
+	width: 100%;
+}
+i
+{
+	color: #dadfe8;
+	padding-right: 20px;
+}
+.left
+{
+   float: left;
+   font-size: 35px;
+   padding: 0 50px;
+}
+.right
+{
+	float: right;
+	font-size: 20px;
+	padding: 10px 50px;
+}
+#head
+{
+	height: 150px;
+	width: 100%;
+	background: #fff;
+}
+.leftt
+{
+	float: left;
+	padding: 25px 0 25px 50px;
+}
+.middle
+{
+	float: left;
+	padding-top: 50px;
+}
+.rightt
+{
+	float: right;
+	padding: 25px 50px 25px 0;
+}
+
+
+nav ul li
+{
+	padding-right: 20px;
+}
+nav ul li a
+{
+	color: white!important;
+	font-weight: bold;
+}
+nav ul li a:hover
+{
+	color: white;
+	background: black;
+}
+.dropdown-menu a
+{
+	color: black !important;
+	font-weight: bold;
+}
+.dropdown-menu a:hover
+{
+	background:#9e0c18; 
+	color: black !important;
+}
+
+#notice a
+{
+	color: #9e0c18;
+}
+#notice a:hover
+{
+	color: white;
+	background:#9e0c18;
+	text-decoration: none;
+}
+.sidfix
+{
+	position: fixed;
+	top: 70%;
+	right: 5px;
+}
+.sidfix1,.sidfix2,.sidfix3
+{
+	  position: relative;
+	font-size: 25px;
+	background: #9e0c18;
+	width: 40px;
+}
+.sidfix1 .tooltiptext {
+	  top: -5px;
+  right: 105%;
+  visibility: hidden;
+  width: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+.sidfix1:hover .tooltiptext 
+{
+  visibility: visible;
+}
+.sidfix2 .tooltiptext {
+	  top: -5px;
+  right: 105%;
+  visibility: hidden;
+  width: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+.sidfix2:hover .tooltiptext 
+{
+  visibility: visible;
+}
+.tooltiptext
+{
+	font-size: 10px;
+}
+.sidfix3 .tooltiptext {
+	  top: -5px;
+  right: 105%;
+  visibility: hidden;
+  width: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+.sidfix3:hover .tooltiptext 
+{
+  visibility: visible;
+}
+.carousel-inner img
+{
+	height: 500px;
+	margin:30px 0;
+}
+#where p
+{
+	color: #9e0c18;
+	font-weight: bold;
+	font-size: 20px;
+}
+#where a
+{
+	text-decoration: none;
+	color: black;
+}
+#where a:hover
+{
+	color: #9e0c18;
+}
+.bottom
+{
+	background:blue;
+	color: white;
+	padding: 30px 30px;
+}
+
+.col-md-3 ul li
+{
+	list-style-type: circle;
+}
+.col-md-3 ul li a
+{
+text-decoration: none;
+color: white;
+}
+.col-md-3 label
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+#contact ul li
+{
+list-style: none;
+}
+#info ul li
+{
+	list-style: none;
+}
+.copyright
+{
+	padding-top: 30px;
+	text-align: center;
+    font-weight: bold;
+}

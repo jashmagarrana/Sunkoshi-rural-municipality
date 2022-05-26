@@ -1,0 +1,24 @@
+body
+{
+	background: url(../images/Mountains.jpg) ;
+}
+.container-fluid
+{
+
+	background-color:rgba(255, 255, 255,0.2);
+	margin-top: 100px;
+	color: #9e0c18;
+	font-weight: bold;
+	text-align: center;
+
+}
+.container-fluid .btn-block
+{
+	border-radius: 40px;
+	width: auto;
+}
+
+.form-signin
+{
+	padding: 20px 30px;
+}
